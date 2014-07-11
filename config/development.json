@@ -1,0 +1,20 @@
+{
+	"redis": {
+		"master": {
+			"name": "datalab",
+			"host": "127.0.0.1",
+			"port": 6379
+		},
+		"sentinels": [
+			{"host": "127.0.0.1", "port": 26379}
+		]
+	},
+	"mongodb":{
+		"ip": "localhost",
+		"port" : 27080
+	},
+	"server": {
+		"host": "localhost",
+		"listen": 9000
+	}
+}
